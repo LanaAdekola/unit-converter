@@ -7,3 +7,20 @@ body {
     color: white;
     padding: 20px;
 }
+h1 {
+    
+}
+input {
+    border: 1px #B295FF solid;
+    border-radius: 5px;
+    height: 60px;
+    width: 70px;
+    background:  #6943FF;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px 
+}
