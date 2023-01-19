@@ -24,3 +24,29 @@ input {
     margin: 0px auto;
     margin-bottom: 20px 
 }
+button {
+    background: white;
+    border: 0px;
+    padding: 10px 25px;
+    border-radius: 5px
+}
+.main {
+    padding: 20px;
+    background: #1F2937;
+    text-align: centre;
+    color: whitesmoke;
+}
+.section-1 {
+     background: #273549;
+     padding: 10px;
+     margin-bottom: 20px
+}
+.section-2 {
+    background: #273549;
+     padding: 10px;
+    margin-bottom: 20px
+}
+.section-3 {
+    background: #273549;
+     padding: 10px
+}
