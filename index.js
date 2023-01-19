@@ -7,11 +7,11 @@ const literstogallons =0.264
 const kilogramstopounds = 2.204
 
 buttonEl.addEventListener("click", function (){
-     let displayvalue = inputEl.value
-     
-     lengthEl.textContent = `${displayvalue} meters = ${displayvalue * metertofeet} feet | ${displayvalue * metertofeet} feet = ${displayvalue} meters`
-     
-     volumeEl.textContent = `${displayvalue} meters = ${displayvalue * literstogallons} feet | ${displayvalue * literstogallons} feet = ${displayvalue} meters`
-     
-     massEl.textContent = `${displayvalue} meters = ${displayvalue * kilogramstopounds} feet | ${displayvalue * kilogramstopounds} feet = ${displayvalue} meters`
-})
+    let displayvalue = inputEl.value
+    
+    lengthEl.textContent = `${displayvalue} meters = ${displayvalue * metertofeet.toFixed(3)} feet | ${displayvalue * metertofeet} feet = ${displayvalue} meters`
+    
+    volumeEl.textContent = `${displayvalue} meters = ${displayvalue * literstogallons.toFixed(3)} feet | ${displayvalue * literstogallons} feet = ${displayvalue} meters`
+    
+    massEl.textContent = `${displayvalue} meters = ${displayvalue * kilogramstopounds.toFixed(3)} feet | ${displayvalue * kilogramstopounds} feet = ${displayvalue} meters`
+}) 
