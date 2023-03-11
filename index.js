@@ -1,6 +1,9 @@
 buttonEl = document.getElementById("button-el")
 inputEl = document.getElementById("input-el")
 lengthEl = document.getElementById("length-el")
+massEl = document.getElementById("mass-el")
+volumeEl = document.getElementById("volume-el")
+
 
 const metertofeet = 3.281
 const literstogallons =0.264
